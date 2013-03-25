@@ -16,7 +16,8 @@ require.config({
     lodash      : "../scripts/libs/lodash",
     backbone    : "../scripts/libs/backbone",
     text        : "../scripts/libs/text",
-    icalendar   : "../scripts/libs/jquery.icalendar.min"
+    //icalendar   : "../scripts/libs/jquery.icalendar.min"
+    icalendar   : "../scripts/libs/jquery.icalendar"
   },
 
   shim: {

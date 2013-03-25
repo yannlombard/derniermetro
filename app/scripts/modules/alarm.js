@@ -101,7 +101,8 @@ define([
             var event = {
                 start       : startDate,
                 end         : endDate,
-                title       : 'titreevent',
+                title       : title,
+                summary     : title,
                 description : description,
                 location    : location,
                 icons       : 'img/icalendar.png',
