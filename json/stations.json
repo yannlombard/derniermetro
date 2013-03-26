@@ -1,0 +1,43 @@
+{
+    "stations" : [
+        {
+
+            "lat"         : 45.745556,
+            "lng"         : 4.871441,
+            "title"       : "Monplaisir - Lumière",
+            "ligne"       : "D",
+            "directions"  : [
+                {
+                    "title"   : "Gare de Vénissieux",
+                    "time"    : {
+                        "h": "00",
+                        "m": "20"
+                    }
+                },{
+                    "title"   : "Gare de Vaise",
+                    "time"    : {
+                        "h": "00",
+                        "m": "18"
+                    }
+                }
+            ]
+
+        }, {
+
+            "lat"         : 45.779999,
+            "lng"         : 4.80407,
+            "title"       : "Gare de Vaise",
+            "ligne"       : "D",
+            "directions"  : [
+                {
+                    "title"   : "Gare de Vénissieux",
+                    "time"    : {
+                        "h": "00",
+                        "m": "19"
+                    }
+                }
+            ]
+
+        }
+    ]
+}

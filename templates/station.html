@@ -1,0 +1,23 @@
+<section>
+    <!--<p>Calcul de la <strong>station la plus proche</strong></p>-->
+    <h2>station</h2>
+    <div id="nearest"><%= station.title %></div>
+</section>
+
+<section>
+    <h2>direction</h2>
+
+    <form id="directionsForm" action="#">
+        <select name="directions" id="directions">
+            <%
+            _.each(station.directions, function(direction, id) {
+
+                var selected = id == station.defaultWay ? 'selected="selected"' : '';
+            %>
+            <option value="<%= id %>" <%= selected %> ><%= direction.title %></option>
+            <%
+            });
+            %>
+        </select>
+    </form>
+</section>
