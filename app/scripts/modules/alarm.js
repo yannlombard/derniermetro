@@ -109,7 +109,7 @@ define([
                 sites       : ['icalendar'],
                 //sites       : ['google'],
                 compact     : false,
-                echoUrl     : '://yannlombard.com/iCalendar.php'
+                echoUrl     : 'http://yannlombard.com/iCalendar.php'
             };
 
             $.icalendar.setDefaults(event);
