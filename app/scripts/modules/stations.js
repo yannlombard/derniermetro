@@ -64,13 +64,14 @@ define([
 
             this.each(function(station) {
 
+                //var station = station.attributes;
 
                 // compute distance between the two points
-                var dLat = self.toRad(station.lat - lat);
-                var dLon = self.toRad(station.lng - lng);
+                var dLat = self.toRad(station.get('lat') - lat);
+                var dLon = self.toRad(station.get('lng') - lng);
 
                 var dLat1 = self.toRad(lat);
-                var dLat2 = self.toRad(station.lat);
+                var dLat2 = self.toRad(station.get('lat'));
 
                 var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
                     Math.cos(dLat1) * Math.cos(dLat1) *
