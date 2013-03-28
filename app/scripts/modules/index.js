@@ -97,6 +97,46 @@ define([
 
         initialize: function() {
 
+            //var url = 'http://www.tcl.fr/Me-deplacer/Toutes-les-lignes/B/Horaire-a-l-arret?nextLundiVendredi=2013%7C03%7C26&nextSamedi=2013%7C03%7C30&nextDimanche=2013%7C03%7C31&arret=tcl5160&submit%5Bafficher%5D=Afficher&sens=-1&select_jours_type=lundi_vendredi&date_horaire=2013%7C03%7C26';
+            //var url = 'http://m.tcl.fr/navitia/horaire_mobile/1140/681/tcl5160/Jean%20Mac%C3%A9/jean%20mac%C3%A9/tcl302/Stade%20de%20Gerland/more/1';
+            //var url = 'http://api.navitia.io/v0/journeys.json?origin=coord:-122.4752:37.80826&destination=coord:-122.402770:37.794682&datetime=20130218T0800';
+
+            // RegionIndex=6
+            // lyon2
+            // &lon=4.836044&lat=45.769918
+
+            // TODO get real last passage values
+
+            /*var url = 'http://api.navitia.io/v0/nantes/stop_points.json';
+
+            $.ajax(url, {
+
+                url: url,
+                type: 'GET',
+                crossDomain: true,
+                dataType: 'jsonp',
+                //dataType: 'text',
+
+                success: function(data, textStatus) {
+                    console.log('SUCCESS');
+                    console.log(data);
+                    console.log(textStatus);
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    *//*console.log('ERROR');
+                    console.log(jqXHR);
+                    console.log(textStatus);
+                    console.log(errorThrown);*//*
+                },
+
+                complete: function(jqXHR, textStatus, errorThrown, data) {
+                    *//*console.log('COMPLETE');
+                    console.log(jqXHR);*//*
+                }
+            });*/
+
+
+
             _.bindAll(this, 'mapAPIloaded');
 
             // set geocoder on gmap api loaded
