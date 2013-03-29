@@ -10,11 +10,28 @@
     <form id="directionsForm" action="#">
         <select name="directions" id="directions">
             <%
+
+            // show or not line title
+            var multi           = false;
+            var nbDirections    = station.directions.length;
+            var prevDirection   = station.directions[0].line;
+
+            for(var i = 1; i < nbDirections; i++) {
+
+                if(station.directions[i].line != prevDirection) {
+                    multi = true;
+                }
+
+                prevDirection = station.directions[i].line;
+
+            }
+
             _.each(station.directions, function(direction, id) {
 
-                var selected = id == station.defaultWay ? 'selected="selected"' : '';
+                var selected  = id == station.defaultWay ? 'selected="selected"' : '';
+                var lineTitle = multi ? direction.line + ' - ' : '';
             %>
-            <option value="<%= id %>" <%= selected %> ><%= direction.title %></option>
+            <option value="<%= id %>" <%= selected %> > <%= direction.line %> - <%= direction.title %></option>
             <%
             });
             %>

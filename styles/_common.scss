@@ -115,14 +115,29 @@ p {margin: 0 0 10px;}
     font-size: 25px;
 }
 
+.icalendar_list {
+  text-align: right;
+  margin: 0 50px 0 0;
+}
+
 .icalendar_list li {
     float: none;
+    display: inline-block;
+    vertical-align: top;
+
     padding: 0;
     border:0;
+
     width: auto;
     height: auto;
+
     background:none;
+
+    a {
+        color: #000;
+    }
 }
+
 .icalendar_list:after {
     content: '';
     display: block;
@@ -133,7 +148,38 @@ p {margin: 0 0 10px;}
 
 .icalendar_list span {display: none;}
 
-.hasICalendar {display: none;}
+.all .icalendar_list li {
+  &:before {
+    content: '•';
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 0 0 0 7px;
+  }
+
+  &:first-child:before {
+    display: none;
+  }
+}
+
+/**
+ * iCalendar
+ */
+.iCalendar .icalendar_list li {display: none;}
+.iCalendar .icalendar_list li:first-child {display: block;}
+
+/**
+ * Google
+ */
+.Google .icalendar_list li {display: block;}
+.Google .icalendar_list li:first-child,
+.Google .icalendar_list li:last-child {display: none;}
+
+/**
+ * Outlook
+ */
+.Outlook .icalendar_list li {display: none;}
+.Outlook .icalendar_list li:last-child {display: block;}
 
 textarea {
     margin: 20px 0;
