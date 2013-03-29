@@ -9,10 +9,14 @@
         <title>derniermetro</title>
         <meta name="description" content="Ne manquez plus le dernier passage de votre métro à Lyon !"/>
 
+        <meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
         <!-- iOS splash screen -->
-        <link rel="apple-touch-startup-image" href="/derniermetro/startup.png"/>
-        <link rel="apple-touch-startup-image" sizes="640x920" href="/derniermetro/startup-640x920.png"/>
-        <link rel="apple-touch-startup-image" sizes="640x1136" href="/derniermetro/startup-640x1136.png"/>
+        <link href="./startup.png" sizes="320x480" media="(device-height: 480px)" rel="apple-touch-startup-image">
+        <link href="./startup-640x920.png" sizes="640x920" media="(device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="./startup-640x1136.png" sizes="640x1136" media="(device-height: 568px)" rel="apple-touch-startup-image">
 
         <!-- iOS icon -->
         <link rel="apple-touch-icon" href="./apple-touch-icon.png"/>
@@ -20,10 +24,6 @@
         <link rel="apple-touch-icon" sizes="72x72" href="./apple-touch-icon-72x72.png"/>
         <link rel="apple-touch-icon" sizes="114x114" href="./apple-touch-icon-114x114.png"/>
         <link rel="apple-touch-icon" sizes="144x144" href="./apple-touch-icon-144x144.png"/>
-
-        <meta name = "viewport" content = "initial-scale = 1, maximum-scale = 1"/>
-        <meta name="apple-mobile-web-app-capable" content="yes"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
         <!-- facebook thumbnail image -->
         <link rel="image_src" href="./facebook.png" />

@@ -17,7 +17,7 @@ function(app, Index) {
             // hide iOS address bar
             scrollTo(0,0);
 
-            app.views.index = new Index.view()
+            app.views.index = new Index.view();
 
         }
     });
