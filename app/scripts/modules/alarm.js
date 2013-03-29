@@ -5,7 +5,8 @@ define([
     'lodash',
     'backbone',
     'text!templates/alarm.html',
-    'icalendar'
+    'icalendar',
+    'models/device'
 
 ],function(app, $, _, Backbone, alarmTemplate) {
 
@@ -106,7 +107,7 @@ define([
                 description : description,
                 location    : location,
                 icons       : 'img/icalendar.png',
-                sites       : ['icalendar'],
+                sites       : ['icalendar', 'google', 'outlook'],
                 //sites       : ['google'],
                 compact     : false,
                 echoUrl     : 'http://yannlombard.com/iCalendar.php'
@@ -125,7 +126,11 @@ define([
         calendarClick: function(e) {
             e.preventDefault();
 
-            $('#basicICal a:first').click();
+            if(app.models.device.get('type') != app.models.device.get('typeDefault')) {
+
+                $('#basicICal a[title="' + app.models.device.get('type') + '"]').click();
+
+            }
 
         }
 

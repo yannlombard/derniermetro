@@ -55,7 +55,7 @@ define([
                 lat         : 0,
                 lng         : 0,
                 title       : '',
-                ligne       : '',
+                line        : '',
                 directions  : [
                     {
                         title   : '',
@@ -498,7 +498,7 @@ define([
 
         render: function() {
 
-            this.$el.html(this.template());
+            this.$el.html(this.template(app.models.device.toJSON()));
 
         },
 

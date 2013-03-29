@@ -8,9 +8,9 @@
             "lat"         : 45.761165,
             "lng"         : 4.921988,
             "title"       : "Vaulx-en-Velin - La Soie",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
@@ -24,15 +24,16 @@
             "lat"         : 45.764050,
             "lng"         : 4.910438,
             "title"       : "Laurent Bonnevay",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "03"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -46,15 +47,16 @@
             "lat"         : 45.765483,
             "lng"         : 4.900943,
             "title"       : "Cusset",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "04"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -68,15 +70,16 @@
             "lat"         : 45.767695,
             "lng"         : 4.889839,
             "title"       : "Flachet",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "06"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -90,15 +93,16 @@
             "lat"         : 45.769252,
             "lng"         : 4.881599,
             "title"       : "Gratte Ciel",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "07"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -112,15 +116,16 @@
             "lat"         : 45.770524,
             "lng"         : 4.873831,
             "title"       : "République Villeurbanne",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "09"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -134,15 +139,23 @@
             "lat"         : 45.770530,
             "lng"         : 4.863178,
             "title"       : "Charpennes",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "B",
+                    "title"   : "Stade de Gerland",
+                    "time"    : {
+                        "h": "00",
+                        "m": "18"
+                    }
+                }, {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "10"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -156,15 +169,16 @@
             "lat"         : 45.769394,
             "lng"         : 4.852524,
             "title"       : "Masséna",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "11"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -178,15 +192,16 @@
             "lat"         : 45.768952,
             "lng"         : 4.843973,
             "title"       : "Foch",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "13"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -200,19 +215,27 @@
             "lat"         : 45.767336,
             "lng"         : 4.835937,
             "title"       : "Hôtel de Ville - Louis Pradel",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "14"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
                         "m": "26"
+                    }
+                }, {
+                    "line"    : "C",
+                    "title"   : "Cuire",
+                    "time"    : {
+                        "h": "00",
+                        "m": "25"
                     }
                 }
             ]
@@ -222,15 +245,16 @@
             "lat"         : 45.763504,
             "lng"         : 4.835776,
             "title"       : "Cordeliers",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "16"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -244,15 +268,30 @@
             "lat"         : 45.758062,
             "lng"         : 4.833196,
             "title"       : "Bellecour",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "D",
+                    "title"   : "Gare de Vénissieux",
+                    "time"    : {
+                        "h": "00",
+                        "m": "25"
+                    }
+                }, {
+                    "line"    : "D",
+                    "title"   : "Gare de Vaise",
+                    "time"    : {
+                        "h": "00",
+                        "m": "31"
+                    }
+                }, {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "17"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -266,15 +305,16 @@
             "lat"         : 45.753069,
             "lng"         : 4.829038,
             "title"       : "Ampère - Victor Hugo",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Perrache",
                     "time"    : {
                         "h": "00",
                         "m": "19"
                     }
                 }, {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -288,9 +328,9 @@
             "lat"         : 45.749405,
             "lng"         : 4.826801,
             "title"       : "Perrache",
-            "ligne"       : "A",
             "directions"  : [
                 {
+                    "line"    : "A",
                     "title"   : "Vaulx-en-Velin - La Soie",
                     "time"    : {
                         "h": "00",
@@ -310,9 +350,9 @@
             "lat"         : 45.726680,
             "lng"         : 4.830825,
             "title"       : "Stade de Gerland",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -326,15 +366,16 @@
             "lat"         : 45.731028,
             "lng"         : 4.833437,
             "title"       : "Debourg",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "29"
                     }
                 },{
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -348,15 +389,16 @@
             "lat"         : 45.737621,
             "lng"         : 4.837364,
             "title"       : "Place Jean Jaurès",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "27"
                     }
                 },{
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -370,15 +412,16 @@
             "lat"         : 45.745727,
             "lng"         : 4.842122,
             "title"       : "Jean Macé",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "26"
                     }
                 },{
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -392,15 +435,30 @@
             "lat"         : 45.753898,
             "lng"         : 4.847012,
             "title"       : "Saxe - Gambetta",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "D",
+                    "title"   : "Gare de Vénissieux",
+                    "time"    : {
+                        "h": "00",
+                        "m": "28"
+                    }
+                }, {
+                    "line"    : "D",
+                    "title"   : "Gare de Vaise",
+                    "time"    : {
+                        "h": "00",
+                        "m": "30"
+                    }
+                }, {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "24"
                     }
-                },{
+                }, {
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -414,15 +472,16 @@
             "lat"         : 45.759211,
             "lng"         : 4.847378,
             "title"       : "Place Guichard - Bourse du Travail",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "23"
                     }
                 },{
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -436,15 +495,16 @@
             "lat"         : 45.761878,
             "lng"         : 4.857780,
             "title"       : "Gare Part-Dieu - Vivier Merle",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "21"
                     }
                 },{
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
@@ -458,35 +518,20 @@
             "lat"         : 45.766776,
             "lng"         : 4.859667,
             "title"       : "Brotteaux",
-            "ligne"       : "B",
             "directions"  : [
                 {
+                    "line"    : "B",
                     "title"   : "Stade de Gerland",
                     "time"    : {
                         "h": "00",
                         "m": "20"
                     }
                 },{
+                    "line"    : "B",
                     "title"   : "Charpennes",
                     "time"    : {
                         "h": "00",
                         "m": "35"
-                    }
-                }
-            ]
-
-        }, {
-
-            "lat"         : 45.770530,
-            "lng"         : 4.863178,
-            "title"       : "Charpennes",
-            "ligne"       : "B",
-            "directions"  : [
-                {
-                    "title"   : "Stade de Gerland",
-                    "time"    : {
-                        "h": "00",
-                        "m": "18"
                     }
                 }
             ]
@@ -504,9 +549,9 @@
             "lat"         : 45.785474,
             "lng"         : 4.833030,
             "title"       : "Cuire",
-            "ligne"       : "C",
             "directions"  : [
                 {
+                    "line"    : "C",
                     "title"   : "Hôtel de Ville - Louis Pradel",
                     "time"    : {
                         "h": "00",
@@ -520,15 +565,16 @@
             "lat"         : 45.779392,
             "lng"         : 4.827418,
             "title"       : "Hénon",
-            "ligne"       : "C",
             "directions"  : [
                 {
+                    "line"    : "C",
                     "title"   : "Hôtel de Ville - Louis Pradel",
                     "time"    : {
                         "h": "00",
                         "m": "12"
                     }
                 }, {
+                    "line"    : "C",
                     "title"   : "Cuire",
                     "time"    : {
                         "h": "00",
@@ -542,15 +588,16 @@
             "lat"         : 45.774475,
             "lng"         : 4.831763,
             "title"       : "Croix-Rousse",
-            "ligne"       : "C",
             "directions"  : [
                 {
+                    "line"    : "C",
                     "title"   : "Hôtel de Ville - Louis Pradel",
                     "time"    : {
                         "h": "00",
                         "m": "15"
                     }
                 }, {
+                    "line"    : "C",
                     "title"   : "Cuire",
                     "time"    : {
                         "h": "00",
@@ -564,35 +611,20 @@
             "lat"         : 45.770599,
             "lng"         : 4.836323,
             "title"       : "Croix Paquet",
-            "ligne"       : "C",
             "directions"  : [
                 {
+                    "line"    : "C",
                     "title"   : "Hôtel de Ville - Louis Pradel",
                     "time"    : {
                         "h": "00",
                         "m": "17"
                     }
                 }, {
+                    "line"    : "C",
                     "title"   : "Cuire",
                     "time"    : {
                         "h": "00",
                         "m": "27"
-                    }
-                }
-            ]
-
-        }, {
-
-            "lat"         : 45.767336,
-            "lng"         : 4.835937,
-            "title"       : "Hôtel de Ville - Louis Pradel",
-            "ligne"       : "C",
-            "directions"  : [
-                {
-                    "title"   : "Cuire",
-                    "time"    : {
-                        "h": "00",
-                        "m": "25"
                     }
                 }
             ]
@@ -610,9 +642,9 @@
             "lat"         : 45.779999,
             "lng"         : 4.80407,
             "title"       : "Gare de Vaise",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
@@ -626,15 +658,16 @@
             "lat"         : 45.775033,
             "lng"         : 4.805537,
             "title"       : "Valmy",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "19"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -648,15 +681,16 @@
             "lat"         : 45.766550,
             "lng"         : 4.805317,
             "title"       : "Gorge de Loup",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "21"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -670,15 +704,16 @@
             "lat"         : 45.759941,
             "lng"         : 4.826056,
             "title"       : "Vieux Lyon",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "23"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -689,66 +724,23 @@
 
         }, {
 
-            "lat"         : 45.758062,
-            "lng"         : 4.833196,
-            "title"       : "Bellecour",
-            "ligne"       : "D",
-            "directions"  : [
-                {
-                    "title"   : "Gare de Vénissieux",
-                    "time"    : {
-                        "h": "00",
-                        "m": "25"
-                    }
-                }, {
-                    "title"   : "Gare de Vaise",
-                    "time"    : {
-                        "h": "00",
-                        "m": "31"
-                    }
-                }
-            ]
-
-        }, {
-
             "lat"         : 45.755375,
             "lng"         : 4.842750,
             "title"       : "Guillotière",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "27"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
                         "m": "29"
-                    }
-                }
-            ]
-
-        }, {
-
-            "lat"         : 45.753898,
-            "lng"         : 4.847012,
-            "title"       : "Saxe - Gambetta",
-            "ligne"       : "D",
-            "directions"  : [
-                {
-                    "title"   : "Gare de Vénissieux",
-                    "time"    : {
-                        "h": "00",
-                        "m": "28"
-                    }
-                }, {
-                    "title"   : "Gare de Vaise",
-                    "time"    : {
-                        "h": "00",
-                        "m": "30"
                     }
                 }
             ]
@@ -758,15 +750,16 @@
             "lat"         : 45.751572,
             "lng"         : 4.854004,
             "title"       : "Garibaldi",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "29"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -780,15 +773,16 @@
             "lat"         : 45.747769,
             "lng"         : 4.865055,
             "title"       : "Sans Souci",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "31"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -802,15 +796,16 @@
             "lat"         : 45.745556,
             "lng"         : 4.871441,
             "title"       : "Monplaisir - Lumière",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "32"
                     }
                 },{
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -824,15 +819,16 @@
             "lat"         : 45.743089,
             "lng"         : 4.878793,
             "title"       : "Grange Blanche",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "34"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -846,15 +842,16 @@
             "lat"         : 45.738380,
             "lng"         : 4.886845,
             "title"       : "Laennec",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "35"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -868,15 +865,16 @@
             "lat"         : 45.729985,
             "lng"         : 4.887596,
             "title"       : "Mermoz - Pinel",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "37"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -890,15 +888,16 @@
             "lat"         : 45.720091,
             "lng"         : 4.888090,
             "title"       : "Parilly",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vénissieux",
                     "time"    : {
                         "h": "00",
                         "m": "39"
                     }
                 }, {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",
@@ -912,9 +911,9 @@
             "lat"         : 45.705790,
             "lng"         : 4.887879,
             "title"       : "Gare de Vénissieux",
-            "ligne"       : "D",
             "directions"  : [
                 {
+                    "line"    : "D",
                     "title"   : "Gare de Vaise",
                     "time"    : {
                         "h": "00",

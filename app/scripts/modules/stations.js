@@ -20,7 +20,7 @@ define([
             lat         : 0,// 45.745556,
             lng         : 0,// 4.871441,
             title       : '',// 'Monplaisir - Lumière',
-            ligne       : '',// 'D',
+            line        : '',// 'D',
             directions  : [
                 {
                     title   : '',// 'Gare de Vénissieux',

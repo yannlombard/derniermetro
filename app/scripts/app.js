@@ -17,7 +17,8 @@ function($, _, Backbone) {
     // The root path to run the application.
     //root: "/derniermetro/",
     root: window.location.pathname,
-    views: {}
+    views: {},
+    models: {}
   };
 
   // Localize or create a new JavaScript Template object.
