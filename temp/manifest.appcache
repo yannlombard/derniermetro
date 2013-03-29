@@ -25,7 +25,7 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.geolocation.getCu
   http://localhost:3501/scripts/678fbc08.amd-app.js:1
 CACHE MANIFEST
 
-# Time: Fri Mar 29 2013 01:21:42 GMT+0100 (CET)
+# Time: Fri Mar 29 2013 01:26:42 GMT+0100 (CET)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
