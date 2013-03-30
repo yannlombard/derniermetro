@@ -21,7 +21,7 @@
 <IfModule mod_headers.c>
   Header set X-UA-Compatible "IE=Edge,chrome=1"
   # mod_headers can't match by content-type, but we don't want to send this header on *everything*...
-  <FilesMatch "\.(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+  <FilesMatch "\.(ics|js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
     Header unset X-UA-Compatible
   </FilesMatch>
 </IfModule>
@@ -77,6 +77,21 @@
 
 
 # ----------------------------------------------------------------------
+# ics iCalendar file access
+# ----------------------------------------------------------------------
+
+# Allow access from all domains for iCalendar file.
+# Alternatively you could only whitelist your
+# subdomains like "subdomain.example.com".
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ics)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+
+
+# ----------------------------------------------------------------------
 # Proper MIME type for all files
 # ----------------------------------------------------------------------
 
@@ -122,6 +137,7 @@ AddType application/x-web-app-manifest+json webapp
 AddType text/x-vcard                        vcf
 AddType application/x-shockwave-flash       swf
 AddType text/vtt                            vtt
+AddType text/calendar                       ics
 
 
 # ----------------------------------------------------------------------
@@ -550,4 +566,8 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 # Increase cookie security
 <IfModule php5_module>
   php_value session.cookie_httponly true
+</IfModule>
+
+<IfModule mod_alias.c>
+	Redirect permanent /derniermetro/derniermetro.ics http://yannlombard.com/derniermetro/derniermetro.php
 </IfModule>

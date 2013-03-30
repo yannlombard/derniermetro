@@ -110,7 +110,8 @@ define([
                 sites       : ['icalendar', 'google', 'outlook'],
                 //sites       : ['google'],
                 compact     : false,
-                echoUrl     : 'http://yannlombard.com/iCalendar.php'
+                echoUrl     : 'http://yannlombard.com/derniermetro/derniermetro.ics'
+                // webcal://ical.mac.com/ical/US32Holidays.ics
             };
 
             $.icalendar.setDefaults(event);
