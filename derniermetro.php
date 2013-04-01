@@ -8,8 +8,12 @@
     error_reporting(E_ALL & ~E_NOTICE);
 
     $content = $_GET["content"];
-    header("Content-type: text/calendar");
+    
+    header('HTTP/1.0 200 OK', true, 200);
+    header('Last-Modified: '.gmdate('D, d M Y H:i:s', filemtime($fn)).' GMT', true, 200);
     header("Content-length: ".strlen($content));
+    header("Content-type: text/calendar");
     header("Content-disposition: attachment; filename=derniermetro.ics");
+    
     echo $content;
 ?>
