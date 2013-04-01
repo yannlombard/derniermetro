@@ -568,6 +568,6 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
   php_value session.cookie_httponly true
 </IfModule>
 
-<IfModule mod_alias.c>
-	Redirect permanent /derniermetro/derniermetro.ics http://yannlombard.com/derniermetro/derniermetro.php
+<IfModule mod_rewrite.c>
+	RewriteRule ^derniermetro\.ics(.*)$ /derniermetro/derniermetro.php$1 [L]
 </IfModule>
