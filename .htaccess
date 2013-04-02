@@ -21,7 +21,7 @@
 <IfModule mod_headers.c>
   Header set X-UA-Compatible "IE=Edge,chrome=1"
   # mod_headers can't match by content-type, but we don't want to send this header on *everything*...
-  <FilesMatch "\.(ics|js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+  <FilesMatch "\.(ics|ical|js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
     Header unset X-UA-Compatible
   </FilesMatch>
 </IfModule>
@@ -77,7 +77,7 @@
 
 
 # ----------------------------------------------------------------------
-# ics iCalendar file access
+# ics & iCal iCalendar file access
 # ----------------------------------------------------------------------
 
 # Allow access from all domains for iCalendar file.
@@ -85,7 +85,7 @@
 # subdomains like "subdomain.example.com".
 
 <IfModule mod_headers.c>
-  <FilesMatch "\.(ics)$">
+  <FilesMatch "\.(ics|ical)$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
@@ -138,6 +138,7 @@ AddType text/x-vcard                        vcf
 AddType application/x-shockwave-flash       swf
 AddType text/vtt                            vtt
 AddType text/calendar                       ics
+AddType text/calendar                       ical
 
 
 # ----------------------------------------------------------------------
@@ -570,4 +571,5 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 
 <IfModule mod_rewrite.c>
 	RewriteRule ^derniermetro\.ics(.*)$ /derniermetro/derniermetro.php$1 [L]
+	RewriteRule ^derniermetro\.ical(.*)$ /derniermetro/derniermetro.php$1 [L]
 </IfModule>
