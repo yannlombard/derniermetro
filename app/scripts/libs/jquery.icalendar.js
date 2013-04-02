@@ -236,8 +236,25 @@ $.extend(iCalendar.prototype, {
 	_echo: function(target, calId) {
 		var settings = $.data(target, PROP_NAME);
 		var event = makeICalendar(settings);
+
 		if (settings.echoUrl) {
-			window.location.href = settings.echoUrl + '?content=' + escape(event);
+
+            // link
+            //var TESTlink = $('<a href="' + settings.echoUrl + '?content=' + escape(event) + '">iCalendar</a>');
+            //$('body').prepend(TESTlink);
+
+            // iframe
+            //var testIFRAME = $('<iframe style="position:absolute;top:-1px;left:-1px;width: 1px;height: 1px;" src="' + settings.echoUrl + '?content=' + escape(event) + '"></iframe>');
+            //$('body').prepend(testIFRAME);
+
+            // window.open(url)
+            //window.open(settings.echoUrl + '?content=' + escape(event));
+
+            //window.location.href = 'http://yannlombard.com/derniermetro/test.ics';
+
+            // original
+            window.location.href = settings.echoUrl + '?content=' + escape(event);
+
 		}
 		else if (settings.echoField) {
 			$(settings.echoField).val(event);

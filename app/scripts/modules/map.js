@@ -45,7 +45,7 @@ define([
                     mapTypeId   : this.model.get('mapTypeId')
                 };
 
-                var map = new google.maps.Map(this.el, myOptions    );
+                var map = new google.maps.Map(this.el, myOptions);
 
                 var marker = new google.maps.Marker({
                     map         : map,
@@ -57,6 +57,7 @@ define([
 
                     marker.setVisible(true);
                     marker.setAnimation(google.maps.Animation.DROP);
+
                 }, 750);
 
                 this.model.set({

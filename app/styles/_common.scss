@@ -37,7 +37,7 @@ h1 {
     position: relative;
     display: block;
     margin: 0;
-    font-weight: normal;
+
     font-size: 43px;
     line-height: 1;
     font-weight: 300;
@@ -213,6 +213,36 @@ textarea {
 #link.show {
     display: block;
 }
+
+/**
+ * install
+ */
+.install {
+
+  display: none;
+
+  .iOS & {
+    display: block;
+  }
+
+
+  border:1px solid #fff;
+  padding: 15px 0;
+  margin-bottom: 0px;
+
+  background: #444;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+
+  font-size:20px;
+
+  &:active,
+  &:hover {
+    color: #FFF;
+  }
+}
+
 
 /**
  * large screens

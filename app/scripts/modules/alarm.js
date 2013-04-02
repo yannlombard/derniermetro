@@ -110,6 +110,8 @@ define([
                 sites       : ['icalendar', 'google', 'outlook'],
                 compact     : false,
                 echoUrl     : 'http://yannlombard.com/derniermetro/derniermetro.ics'
+                //echoUrl     : 'http://yannlombard.com/derniermetro/derniermetro.ical'
+
             };
 
             $.icalendar.setDefaults(event);
@@ -117,8 +119,6 @@ define([
             this.model.set({
                 iCal : $('#basicICal').icalendar(event)
             });
-
-            console.log(this.model.get('iCal').icalendar());
 
         },
 
