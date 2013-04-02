@@ -1,31 +1,31 @@
-TypeError: 'undefined' is not an object (evaluating 'navigator.geolocation.getCurrentPosition')
+TypeError: 'undefined' is not an object (evaluating 'navigator.geolocation.watchPosition')
 
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1 in each
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1 in each
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
-  http://localhost:3501/scripts/cf001ae5.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1 in each
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1 in each
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
+  http://localhost:3501/scripts/3218a4b6.amd-app.js:1
 CACHE MANIFEST
 
-# Time: Wed Apr 03 2013 01:29:07 GMT+0200 (CEST)
+# Time: Wed Apr 03 2013 01:53:38 GMT+0200 (CEST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -51,7 +51,7 @@ http://www.google-analytics.com/ga.js
 https://maps.googleapis.com/maps/api/js?key=AIzaSyB0Mfkwmq7iIGG5h2i5mAFRKZ_8h8p9wNU&sensor=true
 https://maps.gstatic.com/cat_js/intl/fr_fr/mapfiles/api-3/12/6c/%7Bcommon,util,geocoder%7D.js
 https://maps.gstatic.com/intl/fr_fr/mapfiles/api-3/12/6c/main.js
-scripts/cf001ae5.amd-app.js
+scripts/3218a4b6.amd-app.js
 scripts/libs/4d48f6d9.add2home.js
 styles/fadbdbe6.index.css
 

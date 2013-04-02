@@ -319,31 +319,54 @@ define([
                 locationReady: false
             });
 
-            //navigator.geolocation.watchPosition(function (position) {
-            navigator.geolocation.getCurrentPosition(function (position) {
+            this.set({
+                watchID : navigator.geolocation.watchPosition(function (position) {
+                    //navigator.geolocation.getCurrentPosition(function (position) {
 
-                self.set({
+                    self.set({
 
-                    locationReady: true,
-                    location: {
-                        lat     : position.coords.latitude,
-                        lng     : position.coords.longitude,
-                        alt     : position.coords.altitude,
-                        altAcc  : position.coords.altitudeAccuracy,
-                        heading : position.coords.heading,
-                        speed   : position.coords.speed
-                    }
-                });
+                        locationReady: true,
+                        location: {
+                            lat     : position.coords.latitude,
+                            lng     : position.coords.longitude,
+                            alt     : position.coords.altitude,
+                            altAcc  : position.coords.altitudeAccuracy,
+                            heading : position.coords.heading,
+                            speed   : position.coords.speed
+                        }
+                    });
 
-            }, function (error) {
+                }, function (error) {
 
-                self.getLocationError(error);
+                    self.getLocationError(error);
 
-            }, {
+                }, {
 
-                enableHighAccuracy  : true,
-                maximumAge          : 1000
+                    enableHighAccuracy  : true,
+                    maximumAge          : 1000
 
+                })
+            });
+
+            var self = this;
+            var stopWatching = function() {
+
+                navigator.geolocation.clearWatch(self.get('watchID'));
+
+            };
+
+            // cleartimeout if exist
+            if(this.get('watchTimeout')) {
+                clearTimeout(this.get('watchTimeout'));
+            }
+
+            // stop watching until 5s
+            this.set({
+                watchTimeout : setTimeout(function() {
+
+                    stopWatching();
+
+                }, 5000)
             });
 
         },
