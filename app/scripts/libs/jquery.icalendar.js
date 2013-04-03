@@ -245,6 +245,7 @@ $.extend(iCalendar.prototype, {
 
             // iframe
             //var testIFRAME = $('<iframe style="position:absolute;top:-1px;left:-1px;width: 1px;height: 1px;" src="' + settings.echoUrl + '?content=' + escape(event) + '"></iframe>');
+            //var testIFRAME = $('<iframe src="iframe.html' + '?content=' + escape(event) + '"></iframe>');
             //$('body').prepend(testIFRAME);
 
             // window.open(url)

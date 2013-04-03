@@ -321,7 +321,6 @@ define([
 
             this.set({
                 watchID : navigator.geolocation.watchPosition(function (position) {
-                    //navigator.geolocation.getCurrentPosition(function (position) {
 
                     self.set({
 

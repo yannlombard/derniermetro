@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--manifest="manifest.appcache"-->
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>derniermetro</title>
+
+</head>
+<body>
+
+    <form action="webcal://yannlombard.com/derniermetro/derniermetro.ics" method="POST">
+        <input type="hidden" name="content" value=""/>
+    </form>
+
+    <script type="text/javascript" src="scripts/libs/jquery.js"></script>
+    <script type="text/javascript">
+        (function($) {
+
+            $('input[name="content"]').val(window.location.search.replace('?content=', ''));
+            //alert($('input[name="content"]').val());
+            $('form').submit();
+
+        })(jQuery);
+    </script>
+
+</body>
+</html>
