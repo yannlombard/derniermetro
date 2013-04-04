@@ -30,7 +30,7 @@ ReferenceError: Can't find variable: google
   http://localhost:3501/scripts/a0311900.amd-app.js:1
 CACHE MANIFEST
 
-# Time: Fri Apr 05 2013 00:29:18 GMT+0200 (CEST)
+# Time: Fri Apr 05 2013 00:54:47 GMT+0200 (CEST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -52,7 +52,7 @@ CACHE MANIFEST
 
 CACHE:
 http://fonts.googleapis.com/css?family=Open+Sans:300,400
-http://www.google-analytics.com/ga.js
+http://www.google-analytics.com/analytics.js
 scripts/a0311900.amd-app.js
 scripts/libs/19715833.detect.js
 styles/407d661e.index.css
