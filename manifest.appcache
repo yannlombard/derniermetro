@@ -1,0 +1,61 @@
+ReferenceError: Can't find variable: google
+
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1 in g
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1 in each
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1 in each
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+  http://localhost:3501/scripts/a0311900.amd-app.js:1
+CACHE MANIFEST
+
+# Time: Fri Apr 05 2013 00:29:18 GMT+0200 (CEST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+http://fonts.googleapis.com/css?family=Open+Sans:300,400
+http://www.google-analytics.com/ga.js
+scripts/a0311900.amd-app.js
+scripts/libs/19715833.detect.js
+styles/407d661e.index.css
+
+NETWORK:
+*
