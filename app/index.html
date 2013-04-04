@@ -37,7 +37,7 @@
         <meta name="msapplication-TileColor" content="#FFFFFF"/>
         <meta name="msapplication-TileImage" content="windows-8.png"/>
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="styles/index.css"/>
 
@@ -49,17 +49,17 @@
             var html        = document.getElementsByTagName('html')[0];
             var classes     = html.className;
 
+            //alert(navigator.userAgent == 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.43 Safari/537.31');
+
             if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
                 classes = classes + ' iOS';
             }
 
-            html.className = classes;
+            if(!!window.navigator.standalone) {
+                classes = classes + ' isStandalone';
+            }
 
-            // addToHome plugin configuration
-            var addToHomeConfig = {
-                autostart: false,
-                startDelay: 0
-            };
+            html.className = classes;
 
         </script>
 
@@ -67,7 +67,9 @@
     <body>
 
         <!-- Main container. -->
-        <div role="main" id="main" class="container"></div>
+        <div role="main" id="main" class="container">
+            <p class="loading">chargement...</p>
+        </div>
 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -75,10 +77,8 @@
 
         <!-- Add your site or application content here -->
 
-        <script type="text/javascript" src="scripts/libs/add2home.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0Mfkwmq7iIGG5h2i5mAFRKZ_8h8p9wNU&amp;sensor=true"></script>
-
         <!-- build:js scripts/amd-app.js -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0Mfkwmq7iIGG5h2i5mAFRKZ_8h8p9wNU&amp;sensor=true"></script>
         <script data-main="scripts/config" src="scripts/libs/require.js"></script>
         <!-- endbuild -->
 

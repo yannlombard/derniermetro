@@ -1,9 +1,16 @@
 require([
+
   // Application.
   "app",
 
   // Main Router.
-  "router"
+  "router",
+
+    // app2home
+    "modules/app2homeConfig",
+
+    // app2home
+    "app2home"
 ],
 
 function(app, Router) {

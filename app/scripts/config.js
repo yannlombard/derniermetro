@@ -17,7 +17,8 @@ require.config({
     backbone    : "../scripts/libs/backbone",
     text        : "../scripts/libs/text",
     //icalendar   : "../scripts/libs/jquery.icalendar.min"
-    icalendar   : "../scripts/libs/jquery.icalendar"
+    icalendar   : "../scripts/libs/jquery.icalendar",
+    app2home    : "../scripts/libs/add2home"
   },
 
   shim: {
